@@ -15,6 +15,7 @@ L’objet sirène envoie périodiquement un message de status (ie heart beat) un
 ## Architecture globale du réseau de sirènes d’alarme
 ## Sécurité globale : clé de chiffrage
 ## Architecture matérielle de l’objet
+![alt text](https://github.com/maximenrs/projetIOT22/blob/main/Images/Structure.png?raw=true)
 
 ## Coût de la BOM de notre produit
 |Matériel|Quantité|Prix unitaire|Prix total|Remarques|
@@ -48,19 +49,6 @@ L’objet sirène envoie périodiquement un message de status (ie heart beat) un
 ## Changements de comportement de l’objet en fonction des événements
 ![alt text](https://github.com/maximenrs/projetIOT22/blob/main/Images/Automate.png?raw=true)
 
-```mermaid
-flowchart  TD  
- A[Allumage du système]  -->  B{Évenement ?};  
- B  -- Appui court sur le bouton -->  C[Mode test de l'alarme];  
- C  -->  D[Alarme allumée];  
- B  -- Aucun appui sur le bouton ----> E{Taux de CO2 > au seuil critique};
- E -- Oui --> F[État d'urgence];
- E -- Non --> B;
- F --> D;
- D --> G{Appui long sur le bouton};
- G -- Oui --> B;
- G -- Non --> D;
-```
 ## Durée de vie de la batterie
 Pour commencer, on peut différencier les différentes classes : 
 -   **Classe A** : Cette classe a la consommation énergétique la plus faible. Lorsque l'équipement a des données à envoyer il le fait sans contrôle puis il ouvre 2 fenêtres d'écoute successives pour des éventuels messages provenant du serveur, les durées recommandées sont de 1 puis 2 secondes. Ces 2 fenêtres sont les seules durant lesquelles le serveur peut envoyer à l'équipement les données qu'il a précédemment stockées à son attention.
