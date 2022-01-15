@@ -46,6 +46,8 @@ L’objet sirène envoie périodiquement un message de status (ie heart beat) un
 ## Logiciel embarqué de l’objet sirène
 ## Métriques logiciel du logiciel embarqué
 ## Changements de comportement de l’objet en fonction des événements
+![alt text](https://github.com/maximenrs/projetIOT22/blob/main/Images/Automate.png?raw=true)
+
 ```mermaid
 flowchart  TD  
  A[Allumage du système]  -->  B{Évenement ?};  
