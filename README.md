@@ -8,7 +8,7 @@ L’objet LoRaWAN est identifié par son DevEUI et associé à une pièce ou à 
 
 L’objet sirène remonte régulièrement des mesures prises sur les capteurs (TH, smoke, CO,CO2...) équipant celui-ci au format LPP.
 
-L’objet sirène est déclenché soit par un bouton poussoir (ie panic button), on utilisera ce [bouton poussoir](https://www.gotronic.fr/art-bouton-poussoir-arcade-jaune-bd23j-29602.htm) soit par observation d’un événement “tragique” (changement “brutale” de la température, CO2, CO, fumée …) que l'on fera avec le [capteur SCD30](https://www.seeedstudio.com/Grove-CO2-Temperature-Humidity-Sensor-SCD30-p-2911.html). Quand la sirène est munie d’un [PIR Motion sensor](https://wiki.seeedstudio.com/Grove-PIR_Motion_Sensor/), elle peut détecter et envoyer périodiquement la présence probable de personnes à proximité d’elle.
+L’objet sirène est déclenché soit par un bouton poussoir (ie panic button), on utilisera ce [bouton poussoir](https://www.gotronic.fr/art-bouton-poussoir-arcade-jaune-bd23j-29602.htm), soit par observation d’un événement “tragique” (changement “brutale” de la température, CO2, CO, fumée …) que l'on fera avec le [capteur SCD30](https://www.seeedstudio.com/Grove-CO2-Temperature-Humidity-Sensor-SCD30-p-2911.html). Quand la sirène est munie d’un [PIR Motion sensor](https://wiki.seeedstudio.com/Grove-PIR_Motion_Sensor/), elle peut détecter et envoyer périodiquement la présence probable de personnes à proximité d’elle.
   
 L’objet sirène envoie périodiquement un message de status (ie heart beat) une fois déclenchée.
 
