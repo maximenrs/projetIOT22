@@ -40,10 +40,10 @@ L’objet sirène envoie périodiquement un message de status (ie heart beat) un
 ## Implémentation du logiciel embarqué
 ## Format LPP des messages LoRaWAN uplink et downlink
 - Message UpLink
-	> **Température**  : Format LPP Temperature sur le canal 0
-	> **Concentration en CO2** : Format LPP Analog sur le canal 1
-	> **Humidité** : Format LPP RelativeHumidity sur le canal 2
-	> **Mouvement** : Format LPP Presence sur le canal 3
+	- **Température**  : Format LPP Temperature sur le canal 0
+	- **Concentration en CO2** : Format LPP Analog sur le canal 1
+	- **Humidité** : Format LPP RelativeHumidity sur le canal 2
+	- **Mouvement** : Format LPP Presence sur le canal 3
 ## Logiciel embarqué de l’objet sirène
 ## Métriques logiciel du logiciel embarqué
 ## Changements de comportement de l’objet en fonction des événements
