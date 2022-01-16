@@ -24,8 +24,8 @@ L’objet sirène envoie périodiquement un message de status (ie heart beat) un
 |Capteur de CO2, de T° et d'humidité|1|68,80 €|68,80 €|Ce capteur va permettre de définir si la situation est critique ou non en comparant les mesures aux seuils d'une situation "normale".|
 |LEDs|2|0,0447 €|0,0894 €|Permet d'afficher l'état actuel aux utilisateurs a proximité de l'alarme.|
 |Buzzer|1|0,39 €|0,39 €|Permet de communiquer aux utilisateurs à proximité de l'alarme que la situation est dangereuse.|
-|LoRa E5 Development Kit|1|23,46 €|23,46 €|
-|Bouton poussoir d'arcade|1|2,50 €|2,50 €|
+|LoRa E5 Development Kit|1|23,46 €|23,46 €|Permet la communication LoRa|
+|Bouton poussoir d'arcade|1|2,50 €|2,50 €|Permet de lancer le mode test et d'arrêter l'alarme|
 |Système complet|5000|112,36 €|561 800 €|
 ## Coût de certification ETSI du produit et le coût de certification LoRa Alliance du produit
 ### Certification ETSI
